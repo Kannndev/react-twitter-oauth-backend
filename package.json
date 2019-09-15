@@ -1,0 +1,25 @@
+{
+  "name": "twitter-demo",
+  "version": "0.0.1",
+  "description": "Demo application that shows how to enable Twitter login on Express/Node.js backend when creating REST API",
+  "keywords": [
+    "node.js",
+    "express.js",
+    "twitter-login"
+  ],
+  "author": "Kannan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "passport": "^0.3.2",
+    "passport-twitter-token": "^1.3.0",
+    "request": "2.81.0",
+    "request-promise": "^4.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
